@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calc</title>
+    <script src="r.js"></script>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body>
+    <div class="page-bg"></div>
+
+    <main class="card">
+        <h1 class="title">Simple Calculator</h1>
+
+        <div class="controls">
+            <input type="number" placeholder=" first number" id="num1">
+
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+                <option value="-">-</option>
+            </select>
+
+            <input type="number" placeholder="second number" id="num2">
+
+            <button onclick="OutPut()">Calculate</button>
+        </div>
+
+        <p id="demo" class="result"></p>
+        <footer class="attribution">Tip: try decimals like 3.14</footer>
+    </main>
+
+           
+        
+    
+</body>
+</html>
